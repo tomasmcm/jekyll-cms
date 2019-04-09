@@ -5,6 +5,11 @@ collections:
   partners:
     title: Partners
     output: false
+    Field name1:
+      Key1: 
+      Key2: 
+    Field name2:
+    - 
   posts:
     title: Posts
     output: true
