@@ -1,7 +1,8 @@
 ---
-layout: post
 title: My Example Post
-subtitle: ' '
+date: 2016-05-20 00:00:00 Z
+layout: post
+subtitle: " "
 author: Admin
 ---
 
