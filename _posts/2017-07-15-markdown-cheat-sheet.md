@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Example Markup
+date: 2017-07-15 00:00:00 Z
+layout: post
 subtitle: This is a demo of common markup
 author: admin
 ---
