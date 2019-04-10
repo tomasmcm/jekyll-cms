@@ -47,14 +47,36 @@ collections:
     output: false
 
 prose:
+  rooturl: "_data"
   media: "media"
   metadata:
-    _partners:
-      - name: "layout"
+    _data:
+      contact:
+        - name: "name"
+          field:
+            label: "Name"
+            element: "text"
+        - name: "tag"
+          field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            options:
+              - name: "Apples"
+                value: "apples"
+              - name: "Bananas"
+                value: "bananas"
+        - name: "email"
+          field:
+            element: "text"
+            label: "Email"
+            _data:
+    _data/contact:
+      - name: "name"
         field:
-          element: "hidden"
-          value: "blog"
-      - name: "tags"
+          label: "Name"
+          element: "text"
+      - name: "tag"
         field:
           element: "multiselect"
           label: "Add Tags"
@@ -64,8 +86,7 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-      - name: "permalink"
+      - name: "email"
         field:
           element: "text"
-          label: "Permalink"
-          value: ""
+          label: "Email"
