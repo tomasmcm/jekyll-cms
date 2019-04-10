@@ -6,10 +6,10 @@ collections:
     title: Partners
     output: false
     Field name1:
-      Key1:
-      Key2:
+      Key1: 
+      Key2: 
     Field name2:
-      -
+    - 
   posts:
     title: Posts
     output: true
@@ -17,71 +17,71 @@ collections:
     title: Uploads
     output: true
 exclude:
-  - "/vendor/"
-  - "/node_modules/"
-  - "/assets/_src_img/"
-  - Gemfile
-  - Gemfile.lock
-  - gulpfile.js
-  - README.md
-  - LICENSE.md
-  - "*.gemspec"
+- "/vendor/"
+- "/node_modules/"
+- "/assets/_src_img/"
+- Gemfile
+- Gemfile.lock
+- gulpfile.js
+- README.md
+- LICENSE.md
+- "*.gemspec"
 keep_files:
-  - CNAME
-  - ".git"
-  - ".gitignore"
+- CNAME
+- ".git"
+- ".gitignore"
 subtitle: A template to get started on
-url: ""
-baseurl: ""
+url: ''
+baseurl: ''
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 markdown: kramdown
 descriptions:
-  - cat: jekyll
-    desc: Posts describing Jekyll setup techniques.
-  - cat: dummy
-    desc: Just some placeholder posts, lorem ipsum and the rest.
+- cat: jekyll
+  desc: Posts describing Jekyll setup techniques.
+- cat: dummy
+  desc: Just some placeholder posts, lorem ipsum and the rest.
 prose:
-  rooturl: "_data"
-  media: "media"
+  rooturl: _data
+  media: media
   metadata:
     _data:
       contact:
-        - name: "name"
-          field:
-            label: "Name"
-            element: "text"
-        - name: "tag"
-          field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            options:
-              - name: "Apples"
-                value: "apples"
-              - name: "Bananas"
-                value: "bananas"
-        - name: "email"
-          field:
-            element: "text"
-            label: "Email"
-            _data:
-    _data/contact:
-      - name: "name"
+      - name: name
         field:
-          label: "Name"
-          element: "text"
-      - name: "tag"
+          label: Name
+          element: text
+      - name: tag
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          element: multiselect
+          label: Add Tags
+          placeholder: Choose Tags
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-      - name: "email"
+          - name: Apples
+            value: apples
+          - name: Bananas
+            value: bananas
+      - name: email
         field:
-          element: "text"
-          label: "Email"
+          element: text
+          label: Email
+          _data: 
+    _data/contact:
+    - name: name
+      field:
+        label: Name
+        element: text
+    - name: tag
+      field:
+        element: multiselect
+        label: Add Tags
+        placeholder: Choose Tags
+        options:
+        - name: Apples
+          value: apples
+        - name: Bananas
+          value: bananas
+    - name: email
+      field:
+        element: text
+        label: Email
